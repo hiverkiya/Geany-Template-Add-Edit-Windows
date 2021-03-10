@@ -2,7 +2,7 @@
 
 #### You can't Edit/Add Geany template files in Windows using File explorer because of [UAC](https://en.wikipedia.org/wiki/User_Account_Control)
 
-Follow steps below to Add/Edit:-
+Follow steps below to Add/Edit/Delete:-
 
 1. Open Powershell in Elevated priviledges
 
@@ -13,7 +13,7 @@ Follow steps below to Add/Edit:-
   Pressing ``Tab`` Key will autocomplete the current File/Folder name.
 ![Powershell Navigation](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/geany.gif)
 
-3. Creating/Editing template files
+3. Creating/Editing/Deleting template files
   To Create new template file use ``New-Item filename.extension`` Format. There is ``-`` (minus) symbol between _New_ and _Item_
  
  ![Creating Files](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/Creating%20Files.PNG)
@@ -21,9 +21,32 @@ Follow steps below to Add/Edit:-
  Like I have created mine using `New-Item cp.cpp` 
  
  ![Creating Template](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/Creating%20template.PNG)
+ 
+ To delete use
+ `del filename`
+You can press `Tab` to autocomplete
+ ![Deleting File](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/delete.gif)
 
 4. Editing File
   Notice the length of file created is 0, means it doesn't contain anything _yet_.
-  Type first few letter of file and press `Tab` and `Enter`
+  Type first few letter of file and press `Tab` and `Enter`. Pressing `Tab` key will autocomplete the File/Folder name matching.  
   Your file will be opened in Default Editor/IDE you've specified
-  
+  ![Opening File](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/comp.gif)
+
+5. Editing Template
+ Follow ![Template Customization Guide](https://www.geany.org/manual/current/index.html#customizing-templates)
+ _Don't be scared, its just few paragraphs you need to read to customize_
+For a basic template like mine you can just add basics
+![Template Format](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/template.PNG)
+Which will be rendered like this in Geany
+![geanyTemplate](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/geanyTemplate.PNG)
+
+6. Creating New File from Template
+   Click on dropdown button to right of `New` Button or Goto ``File -> New (with Template)`` and click on your custom template
+   ![](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/newDropDown.png)
+   ![](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/geanyNewTemplate.png)
+
+Voila!
+![](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/open.gif)
+
+   
