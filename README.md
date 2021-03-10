@@ -1,5 +1,7 @@
 ## Geany Template Add/Edit Windows10
 
+##### Inpiration for this guide is [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - [Linux setup for Competitive Programming (with Geany)](https://youtu.be/ePZEkbbf3fc)
+
 #### You can't Edit/Add Geany template files in Windows using File explorer because of [UAC](https://en.wikipedia.org/wiki/User_Account_Control)
 
 Follow steps below to Add/Edit/Delete:-
@@ -41,9 +43,12 @@ Follow steps below to Add/Edit/Delete:-
   ![Opening File](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/media/comp.gif)
 
 5. Editing Template
-   Follow ![Template Customization Guide](https://www.geany.org/manual/current/index.html#customizing-templates)
+   
+   Follow [Template Customization Guide](https://www.geany.org/manual/current/index.html#customizing-templates)
+   
    _Don't be scared, its just few paragraphs you need to read to customize_
-   For a basic template like mine you can just add basics
+   
+   For a basic template like mine you can just add basics like these
    
    ![Template Format](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/media/template.PNG)
    
@@ -59,7 +64,7 @@ Follow steps below to Add/Edit/Delete:-
    
    ![geanyNewtemplate](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/media/geanyNewTemplate.png)
 
-   Voila!
+   Voila! Make sure to save your file either from `File` Menu option or `CTRL + S` and give your file a _beautiful name_
    
    ![open](https://github.com/hiverkiya/Geany-Template-Add-Edit-Windows-/blob/main/media/open.gif)
 
