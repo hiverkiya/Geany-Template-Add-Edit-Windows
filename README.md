@@ -1,6 +1,10 @@
 ## Geany Template Add/Edit Windows10
 
-##### Inpiration for this guide is [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - [Linux setup for Competitive Programming (with Geany)](https://youtu.be/ePZEkbbf3fc)
+##### Inpiration for this guide is [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
+
+You can setup [Geany](https://www.geany.org/) for _Competitive Programming_ using [Linux setup for Competitive Programming (with Geany)](https://youtu.be/ePZEkbbf3fc)
+
+To setup [Geany](https://www.geany.org/) Templates in Windows_10 follow steps below :-
 
 #### You can't Edit/Add Geany template files in Windows using File explorer because of [UAC](https://en.wikipedia.org/wiki/User_Account_Control)
 
